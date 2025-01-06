@@ -1,0 +1,44 @@
+19:35:30.245 [MainThread] INFO    thonny: Thonny version: 4.1.7
+19:35:30.245 [MainThread] INFO    thonny: cwd: C:\thonny
+19:35:30.245 [MainThread] INFO    thonny: original argv: []
+19:35:30.245 [MainThread] INFO    thonny: sys.executable: C:\thonny\pythonw.exe
+19:35:30.245 [MainThread] INFO    thonny: sys.argv: ['C:\\thonny\\thonny.exe']
+19:35:30.245 [MainThread] INFO    thonny: sys.path: ['C:\\thonny\\python310.zip', 'C:\\thonny\\DLLs', 'C:\\thonny\\lib', 'C:\\thonny', 'C:\\thonny\\lib\\site-packages']
+19:35:30.245 [MainThread] INFO    thonny: sys.flags: sys.flags(debug=0, inspect=0, interactive=0, optimize=0, dont_write_bytecode=0, no_user_site=1, no_site=0, ignore_environment=1, verbose=0, bytes_warning=0, quiet=0, hash_randomization=1, isolated=1, dev_mode=False, utf8_mode=0, warn_default_encoding=0, int_max_str_digits=-1)
+19:35:38.319 [MainThread] INFO    thonny.workbench: Starting Workbench
+19:35:38.495 [MainThread] INFO    thonny.workbench: Creating runner
+19:35:38.529 [MainThread] INFO    thonny.workbench: Start loading plugins
+19:35:39.429 [MainThread] INFO    thonny.workbench: Done loading plugins
+19:35:39.441 [MainThread] WARNING thonny.workbench: Could not find UI theme 'clam', switching to default
+19:35:39.601 [MainThread] INFO    thonny.workbench: Opening views
+19:35:40.365 [MainThread] INFO    thonny.plugins.cpython_frontend.cp_front: Creating LocalCPythonProxy
+19:35:40.365 [MainThread] INFO    thonny.running: Starting the backend: ['C:\\thonny\\python.exe', '-u', '-B', 'C:\\thonny\\lib\\site-packages\\thonny\\plugins\\cpython_backend\\cp_launcher.py', 'C:\\Users\\jpoll', "{'run.warn_module_shadowing': True}"] C:\Users\jpoll
+19:39:07.729 [MainThread] INFO    thonny.ui_utils: Parent y: 366, rooty: 417, vrooty: 0
+19:39:07.729 [MainThread] INFO    thonny.ui_utils: Placing .!configurationdialog with geometry +2850+443
+19:39:21.081 [MainThread] INFO    thonny.plugins.micropython.mp_front: Listing serial ports
+19:48:08.350 [MainThread] INFO    thonny.ui_utils: Parent y: 366, rooty: 417, vrooty: 0
+19:48:08.350 [MainThread] INFO    thonny.ui_utils: Placing .!configurationdialog2 with geometry +2850+443
+19:48:12.143 [MainThread] INFO    thonny.plugins.micropython.mp_front: Listing serial ports
+19:49:08.509 [MainThread] INFO    thonny.running: Killing backend process
+19:49:08.512 [MainThread] INFO    thonny.shell: BaseShellText._on_backend_terminated
+19:49:08.512 [Thread-2 (_listen_stdout)] INFO    thonny.running: Reader got EOF
+19:49:08.546 [MainThread] INFO    thonny.running: Starting the backend: ['C:\\thonny\\python.exe', '-s', '-u', '-B', 'C:\\thonny\\lib\\site-packages\\thonny\\plugins\\esp\\esp_back.py', "{'clean': False, 'port': 'COM3', 'dtr': None, 'rts': None, 'submit_mode': None, 'interrupt_on_connect': True, 'write_block_size': None, 'write_block_delay': None, 'proxy_class': 'ESP32Proxy', 'sync_time': True, 'validate_time': False, 'local_rtc': True}"] C:\Users\jpoll
+19:49:08.830 [MainThread] INFO    thonny.shell: BaseShellText.restart(False)
+19:49:08.862 [MainThread] INFO    thonny.plugins.micropython.mp_front: Listing serial ports
+19:49:32.946 [MainThread] INFO    thonny.plugins.micropython.mp_front: Listing serial ports
+19:49:33.046 [MainThread] INFO    thonny.ui_utils: Parent y: 366, rooty: 417, vrooty: 0
+19:49:33.046 [MainThread] INFO    thonny.ui_utils: Placing .!configurationdialog3 with geometry +3157+436
+19:49:57.175 [Thread-6 (_download_variants)] INFO    thonny.plugins.micropython.base_flashing_dialog: Downloading 'https://raw.githubusercontent.com/thonny/thonny/master/data/micropython-variants-esptool.json'
+19:49:57.209 [MainThread] INFO    thonny.ui_utils: Parent y: 436, rooty: 467, vrooty: 0
+19:49:57.209 [MainThread] INFO    thonny.ui_utils: Placing .!configurationdialog3.!espflashingdialog with geometry +3165+499
+19:49:57.444 [Thread-6 (_download_variants)] INFO    thonny.plugins.micropython.base_flashing_dialog: Got 30 variants
+19:49:57.445 [Thread-6 (_download_variants)] INFO    thonny.plugins.micropython.base_flashing_dialog: Downloading 'https://micropython.org/download/ARDUINO_NANO_ESP32'
+19:49:57.762 [Thread-6 (_download_variants)] INFO    thonny.plugins.micropython.base_flashing_dialog: Using '20250106-v1.25.0-preview.180.g495ce91ca' as prerelease substitute
+19:50:42.366 [MainThread] INFO    thonny.plugins.micropython.esptool_dialog: Disconnecting
+19:50:42.366 [MainThread] INFO    thonny.running: Killing backend process
+19:50:42.369 [Thread-4 (_listen_stdout)] INFO    thonny.running: Reader got EOF
+19:50:42.596 [MainThread] INFO    thonny.shell: BaseShellText._on_backend_terminated
+19:57:29.246 [MainThread] INFO    thonny.running: Starting the backend: ['C:\\thonny\\python.exe', '-s', '-u', '-B', 'C:\\thonny\\lib\\site-packages\\thonny\\plugins\\esp\\esp_back.py', "{'clean': False, 'port': 'COM3', 'dtr': None, 'rts': None, 'submit_mode': None, 'interrupt_on_connect': False, 'write_block_size': None, 'write_block_delay': None, 'proxy_class': 'ESP32Proxy', 'sync_time': False, 'validate_time': False, 'local_rtc': False}"] C:\Users\jpoll
+19:57:29.556 [MainThread] INFO    thonny.shell: BaseShellText.restart(False)
+19:57:29.581 [MainThread] INFO    thonny.plugins.micropython.mp_front: Listing serial ports
+19:57:30.791 [MainThread] INFO    thonny.plugins.micropython.mp_front: Listing serial ports
